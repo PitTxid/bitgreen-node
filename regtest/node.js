@@ -15,7 +15,7 @@ var node;
 
 var should = chai.should();
 
-var DashdRPC = require('bitcoind-rpc');
+var DashdRPC = require('bitgreend-rpc');
 var index = require('..');
 var Transaction = bitgreen.Transaction;
 var DashcoreNode = index.Node;

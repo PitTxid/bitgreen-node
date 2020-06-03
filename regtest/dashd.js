@@ -17,7 +17,7 @@ var bitgreend;
 var should = chai.should();
 var assert = chai.assert;
 var sinon = require('sinon');
-var DashdRPC = require('bitcoind-rpc');
+var DashdRPC = require('bitgreend-rpc');
 var transactionData = [];
 var blockHashes = [];
 var utxos;

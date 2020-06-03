@@ -1,7 +1,7 @@
 'use strict';
 
 var benchmark = require('benchmark');
-var dashdRPC = require('bitcoind-rpc');
+var dashdRPC = require('bitgreend-rpc');
 var async = require('async');
 var maxTime = 20;
 

@@ -643,7 +643,7 @@ describe('Dash Service', function() {
   });
 
   describe('#_wrapRPCError', function() {
-    it('will convert bitcoind-rpc object into JavaScript error', function() {
+    it('will convert bitgreend-rpc object into JavaScript error', function() {
       var bitgreend = new DashService(baseConfig);
       var error = bitgreend._wrapRPCError({message: 'Test error', code: -1});
       error.should.be.an.instanceof(errors.RPCError);
