@@ -4,10 +4,10 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "5.1.4",
   "main": "./index.js",
-  "repository": "git://github.com/PitTxid/bitgreen-node.git",
-  "homepage": "https://github.com/PitTxid/bitgreen-node",
+  "repository": "git://github.com/bitgreen/bitgreen-node.git",
+  "homepage": "https://github.com/bitgreen/bitgreen-node",
   "bugs": {
-    "url": "https://github.com/PitTxid/bitgreen-node/issues"
+    "url": "https://github.com/bitgreen/bitgreen-node/issues"
   },
   "contributors": [
     {
@@ -48,7 +48,7 @@
   "dependencies": {
     "@dashevo/x11-hash-js": "^1.0.2",
     "async": "^2.6.2",
-    "bitgreen-lib": "git+https://github.com/PitTxid/bitgreen-lib.git",
+    "bitgreen-lib": "git+https://github.com/bitgreen/bitgreen-lib.git",
     "bitgreend-rpc": "github:bitgreen/bitgreend-rpc",
     "body-parser": "^1.19.0",
     "colors": "^1.3.3",
